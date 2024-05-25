@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <style>
+        @import url(style.css);
+        @import url(media.css);
+    </style>
+</head>
+<body>
+    <section class="carousel slide " id="carousel1" data-bs-ride="carousel" style="background-color:#F4E967;">
+     <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <p class=" text-center mt-2 fw-bold">Payez en 3x sans frais</p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="mt-2 fw-bold">Payez en 3x sans frais</p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="mt-2 fw-bold">Livraison offerte dès 100€</p>
+        </div>
+        <div class="carousel-item text-center">
+            <p class="mt-2 fw-bold">Payez en 3x sans frais</p>
+        </div>
+        <button class="carousel-control-prev  " style="width: 50px;" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "  aria-hidden="true"></span>
+            <span class="visually-hidden ">Previous</span>
+          </button>
+          <button class="carousel-control-next " style="width: 50px;" type="button"  data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon  " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+    </section>
+    <section>
+        <div class="img">
+        <div class="navbar navbar-expand-xl">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" >
+                <span class="navbar-toggler-icon"><i class="ri-menu-unfold-2-fill text-white fs-1"></i></span>
+              </button>
+              <div class="d-sm-block d-none  d-md-none" ><i class="bi bi-search text-white  fs-5 ms-sm-2"></i></div>
+                <a class="navbar-brand m-sm-auto" href="#">
+                    <img src="https://panafrica-store.com/cdn/shop/files/Panafrica-logo-horizontal-blanc.png?v=1695122680&width=245" alt="" width="100%" class="col-xl-9 col-sm-7  m-sm-auto d-sm-flex ">
+                </a>
+                <div class="d-xl-none d-none d-sm-block ">
+                  <i class="ri-heart-3-line fs-3 text-white pe-3"></i>
+                 <a href="add.html" class="" style="text-decoration: none;"> <i class="ri-shopping-basket-line fs-3 text-white "></i></a>
+                </div>
+               
+                  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                   <div class="col-12 d-flex justify-content-evenly ps-5">
+                    <ul class="nav text-center ps-5 mt-2 ps-lg-0" >
+                        <li class="nav-item "><a href="shoes.html" class="nav-link text-white fw-bold">COLLABS</a></li>
+                        <li class="nav-item"><a href="shoes.html" class="nav-link text-white fw-bold">BASKETS</a></li>
+                        <li class="nav-item"><a href="shoes.html" class="nav-link text-white fw-bold">LOOKBOOK</a></li>
+                        <li class="nav-item"><a href="shoes.html" class="nav-link text-white fw-bold">MANIFESTE</a></li>
+                        <li class="nav-item"><a href="shoes.html" class="nav-link text-white fw-bold">OUTLET</a></li>
+                    </ul>
+                    <ul class="nav ">
+                        <li class="nav-item "><a href="" class="nav-link text-white fw-bold"><i class="bi bi-search fs-4"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-white fw-bold"><i class="bi bi-geo-alt fs-4"></i></a></li>
+                        <li class="nav-item"><a href="" class="nav-link text-white fw-bold"><i class="bi bi-heart fs-4"></i></a></li>
+                        <li class="nav-item "><a href="formpg2.html" class="nav-link text-white fw-bold"><i class="bi bi-person fs-4"></i></a></li>
+                        <li class="nav-item"><a href="add.html" target="_blank" class="nav-link text-white fw-bold" ><i class="bi bi-bag fs-4"></i></a></li>
+                    </ul>
+                  </div>
+                  </div>
+            </div>
+            <div class="offcanvas offcanvas-top h-50" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel " style="text-transform: uppercase; font-weight: 1000; ">navigation </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="col-12 d-flex container justify-content-between ps-5">
+                  <ul class=" list-unstyled   mt-2 ps-lg-0" >
+                      <li class="nav-item "><a href="" class="nav-link  text-dark fw-bold">COLLABS</a></li>
+                      <li class="nav-item"><a href="shoes.html" class="nav-link  text-dark fw-bold">BASKETS</a></li>
+                      <li class="nav-item"><a href="" class="nav-link text-dark  fw-bold">LOOKBOOK</a></li>
+                      <li class="nav-item"><a href="" class="nav-link text-dark  fw-bold">MANIFESTE</a></li>
+                      <li class="nav-item"><a href="" class="nav-link text-dark  fw-bold">OUTLET</a></li>
+                  </ul>
+                  <ul class="list-unstyled ">
+                      <li class="nav-item "><a href="" class="nav-link  fw-bold"><i class="bi bi-search text-dark fs-4"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link  fw-bold"><i class="bi bi-geo-alt text-dark fs-4"></i></a></li>
+                      <li class="nav-item"><a href="" class="nav-link  fw-bold"><i class="bi bi-heart text-dark  fs-4"></i></a></li>
+                      <li class="nav-item "><a href="form.html" class="nav-link  fw-bold"><i class="bi bi-person text-dark fs-4"></i></a></li>
+                      <li class="nav-item"><a href="add.html" target="_blank" class="nav-link  fw-bold" ><i class="bi bi-bag text-dark fs-4"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="main-items container mt-5 pt-5">
+            <p class="text-white fw-bold">Nouvelle collection - partie 2</p>
+        <h1 class="text-white  mb-5" style="font-size: 75px; font-weight: 1000;">NOMADE</h1>
+         <a href="" class="text-dark p-3 fs-5 fw-bold" style="text-decoration: none; background-color: #F4E967;">DÉCOUVRIR</a>
+        </div>
+       </div>
+    </section>
+
+    <section class="slid ">
+        <div class="" style="background-color: #F4E967;">
+         
+         <div class="d-flex justify-content-between container pt-5">
+          <h1 class="" style="font-weight: 1000;">SNEAKERS</h1>
+          <h5>See all products</h5>
+         </div>
+            <div class="slidme mt-5 mb-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                       <div class="d-flex">
+                        <div class="col-xl-3 col-sm-6 col-12 col-lg-3">
+                          <a href="shoes.html" class="nav-link text-dark">
+                            <h2 class=" slid-me fs-1">ATLAS</h2>
+                            <img src="https://panafrica-store.com/cdn/shop/files/Atlas-vagues_mea_site_internet.png?v=1709901793&width=400" alt="" width="100%" class="col-10  ms-sm-5 shoes">
+                          </a></div>
+                         
+                            <div class="col-xl-3 col-sm-6 d-flex col-lg-3 ">
+                              <a href="shoes.html" class="nav-link text-dark">
+                            <h2 class=" slid-me fs-1">ARUSHA</h2>
+                            <img src="https://panafrica-store.com/cdn/shop/files/Arusha_collection_haut_site_2_af3ebe19-1ffb-43bc-915a-768bbd095ca4.png?v=1701427026&width=400" alt="" width="100%" class="col-10 ms-5 shoes"></a></div>
+                             
+                            <div class="col-xl-3 col-sm-6 col-lg-3">
+                              <a href="shoes.html" class="nav-link text-dark">
+                            <h2 class=" slid-me fs-1">KASAÏ</h2>
+                            <img src="https://panafrica-store.com/cdn/shop/files/Kasai_collection_haut_site_2.png?v=1701427401&width=400" alt="" width="100%" class="col-10 ms-5 shoes">
+                          </a></div>
+                        <div class="col-xl-3  col-sm-6 col-lg-3">
+                          <a href="shoes.html" class="nav-link text-dark">
+                            <h2 class=" slid-me fs-1">BINI</h2>
+                            <img src="https://panafrica-store.com/cdn/shop/files/Bini_mea_site_internet.png?v=1709820242&width=400" alt="" width="100%" class="col-10 ms-5 shoes">
+                          </a></div>
+                       </div>
+                      </div>
+                     
+                    
+                  
+                <div class="carousel-item ">
+                  <div class="d-flex ">
+                      <div class="col-3 col-sm-6 col-12 col-lg-3">
+                          <h2 class=" slid-me fs-1">L'ICONIQUE</h2>
+                          <img src="https://panafrica-store.com/cdn/shop/files/mea_tombouctou_site.png?v=1707319446&width=400" alt="" width="100%" class="col-10 ms-5 shoes"></div>
+                      <div class="col-3 col-sm-6 col-lg-3 d-flex ">
+                          <h2 class=" slid-me fs-1">SAHARA</h2>
+                          <img src="https://panafrica-store.com/cdn/shop/files/sahara-camel_site_internet.png?v=1706712948&width=400" alt="" width="100%" class="col-10 ms-5 shoes"></div>
+                      <div class="col-3 col-sm-6 col-lg-3">
+                          <h2 class=" slid-me fs-1">KASAÏ</h2>
+                          <img src="https://panafrica-store.com/cdn/shop/files/Kasai_collection_haut_site_2.png?v=1701427401&width=400" alt="" width="100%" class="col-10 ms-5 shoes"></div>
+                      <div class="col-3 col-sm-6 col-lg-3">
+                          <h2 class=" slid-me fs-1">AKANDA</h2>
+                          <img src="https://panafrica-store.com/cdn/shop/files/mea_akanda-camo_site.png?v=1707319446&width=400" alt="" width="100%" class="col-10 ms-5 shoes"></div>
+                     </div>
+                </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                   <div class="mt-5 mb-3">
+                    <marquee behavior="" direction="" scrollamount="15" class="pb-5" style="font-weight: 1000; font-size: 60px; line-height: 60px;">A DROP OF SUMMER. &nbsp; &nbsp;&nbsp;&nbsp; A DROP OF SUMMER.  &nbsp; &nbsp;&nbsp;&nbsp; A DROP OF SUMMER.  &nbsp; &nbsp;&nbsp;&nbsp; A DROP OF SUMMER. &nbsp; &nbsp;&nbsp;&nbsp; A DROP OF SUMMER. &nbsp; &nbsp;&nbsp;&nbsp; A DROP OF SUMMER.  &nbsp; &nbsp;&nbsp;&nbsp; A DROP OF SUMMER.  &nbsp; &nbsp;&nbsp;&nbsp; </marquee>
+                  </div>
+            </div>
+            </div>
+        </section>
+              <section class="slide-2 d-none d-lg-block">
+                <h1 class="container font-side" style="font-weight: 1000; ">SÉLECTION PRINTEMPS-ÉTÉ</h1>
+                 <div class="mt-5 pt-5 mb-5">
+                    <div id="carouselExampleFade" class="carousel  slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner ">
+                          <div class="carousel-item active d-flex">
+                            <a href="shoes.html" class="nav-link text-dark">
+                            <div class="col-3 ms-xxl-5 col-lg-4 col-xxl-3 d-sm-none d-lg-block ms-5 ms-lg-0">
+                            <div class="shoes-2 d-sm-none d-lg-block col-10">
+                                   
+                                <div class="img-1 m-auto" ></div>
+                                <div class="shoes3   p-4"> 
+                                    <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Bini-fleurs</a>
+                                    <a href="" class="text-center nav-link text-dark p-0">95,00€</a>
+                                    </div>
+                                    <div class="shoes-3x ">
+                                        <ul class="list-unstyled d-flex justify-content-center mb-0 mt-4">
+                                          <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">42</a></li>
+                                        </ul>
+                                      <a href="" class="nav-link text-center text-dark pb-4">4 modèles</a> 
+                                    </div>
+                            </div>
+                          </div>
+                          </a>
+                          <a href="shoes.html" class="nav-link text-dark">
+                          <div class="col-3 col-xxl-3  col-lg-4 ">
+                            <div class=" ms-sm-5 ms-xxl-0 shoes-2 col-10 ">
+                                <div class="img-2 m-auto" ></div>
+                                <div class="shoes3   p-4"> 
+                                    <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Sahara-Beige</a>
+                                    <a href="" class="text-center nav-link text-dark p-0">115,00€</a>
+                                    </div>
+                                    <div class="shoes-3x">
+                                        <ul class="list-unstyled d-flex  mb-0 justify-content-center">
+                                          <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">42</a></li>
+                                          <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6">43</a></li>
+                                        </ul>
+                                        <ul class="list-unstyled d-flex justify-content-center mb-0 ">
+                                          <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6">44</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">46</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">47</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">48</a></li>
+                                        </ul>
+                                      <a href="" class="nav-link text-center text-dark ">10 modèles</a> 
+                                    </div>
+                            </div>
+                          </div>
+                          </a>
+                          <a href="shoes.html" class="nav-link text-dark">
+                          <div class="col-3 col-lg-4 col-xxl-3  ms-sm-5 ps-sm-5  ms-lg-0 ps-lg-0">
+                            <div class=" ms-sm-5 ms-xxl-0 shoes-2 col-10  ">
+                                <div class="img-3 m-auto" ></div>
+                                <div class="shoes3  p-4"> 
+                                    <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Akanda-Waves</a>
+                                    <a href="" class="text-center nav-link text-dark p-0">159,00€</a>
+                                    </div>
+                                    <div class="shoes-3x ">
+                                        <ul class="list-unstyled d-flex ms-3 mb-0 ">
+                                          <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">42</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">43</a></li>
+                                        </ul>
+                                        <ul class="list-unstyled d-flex justify-content-center mb-0 ">
+                                         
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">44</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">45</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">46</a></li>
+                                        </ul>
+                                      <a href="" class="nav-link text-center text-dark">11 modèles</a> 
+                                    </div>
+                            </div>
+                          </div>
+                          </a>
+                          <a href="shoes.html" class="nav-link text-dark">
+                          <div class="col-3  d-sm-none d-lg-none d-xl-block">
+                            <div class="shoes-2  col-10 ">
+                                <div class="img-4 m-auto" ></div>
+                                <div class="shoes3 p-4"> 
+                                    <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Atlas-Hirondelle</a>
+                                    <a href="" class="text-center nav-link text-dark p-0">99,00€</a>
+                                    </div>
+                                    <div class="shoes-3x">
+                                        <ul class="list-unstyled d-flex justify-content-center mb-0 mt-4">
+                                          <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                          <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                          
+                                        </ul>
+                                      <a href="" class="nav-link text-center text-dark pb-4">5 modèles</a> 
+                                    </div>
+                            </div>
+                          </div>
+                          </a>
+                          </div>
+                          <div class="carousel-item d-flex">
+                            <a href="shoes.html" class="nav-link text-dark">
+                            <div class="col-3 col-lg-4 col-xxl-3  ms-5">
+                              <div class="shoes-2 col-10">
+                                  <div class="img-1x m-auto" ></div>
+                                  <div class="shoes3  p-4"> 
+                                      <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Arusha-Grenadine</a>
+                                      <a href="" class="text-center nav-link text-dark p-0">149,00€</a>
+                                      </div>
+                                      <div class="shoes-3x ">
+                                          <ul class="list-unstyled d-flex justify-content-center mb-0 mt-4">
+                                            <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">42</a></li>
+                                          </ul>
+                                        <a href="" class="nav-link text-center text-dark pb-4">19 modèles</a> 
+                                      </div>
+                              </div>
+                            </div>
+                            </a>
+                            <a href="shoes.html" class="nav-link text-dark">
+                            <div class="col-3 col-lg-4 ms-sm-5 ps-xxl-0 ms-lg-0 ps-sm-5 col-xxl-3">
+                              <div class="shoes-2  col-10 ">
+                                  <div class="img-2x " ></div>
+                                  <div class="shoes3  p-4"> 
+                                      <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Dodoma</a>
+                                      <a href="" class="text-center nav-link text-dark p-0">89,00€</a>
+                                      </div>
+                                      <div class="shoes-3x  ">
+                                          <ul class="list-unstyled d-flex  mb-0 justify-content-center">
+                                            <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">42</a></li>
+                                            <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6">43</a></li>
+                                          </ul>
+                                          <ul class="list-unstyled d-flex justify-content-center mb-0 ">
+                                            <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6">44</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">46</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">47</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">48</a></li>
+                                          </ul>
+                                        <a href="" class="nav-link text-center text-dark ">28 modèles</a> 
+                                      </div>
+                              </div>
+                            </div>    
+                            </a>
+                            <a href="shoes.html" class="nav-link text-dark">
+                            <div class="col-3 d-sm-none d-lg-none d-xxl-none d-xl-block">
+                              <div class="shoes-2  col-10 ">
+                                  <div class="img-4 m-auto" ></div>
+                                  <div class="shoes3 "> 
+                                      <a href="" class=" nav-link text-dark text-center fs-5"  style="font-weight: 1000;">Atlas-Hirondelle</a>
+                                      <a href="" class="text-center nav-link text-dark p-0">99,00€</a>
+                                      </div>
+                                      <div class="shoes-3x">
+                                          <ul class="list-unstyled d-flex justify-content-center mb-0 mt-4">
+                                            <li><a href="" class="nav-link p-2 text-dark fw-bold fs-6 ">36</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">37</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">38</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">39</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">40</a></li>
+                                            <li><a href="" class="nav-link text-dark fw-bold fs-6 p-2">41</a></li>
+                                            
+                                          </ul>
+                                        <a href="" class="nav-link text-center text-dark pb-4">5 modèles</a> 
+                                      </div>
+                              </div>
+                            </div>    
+                            </a>               
+                          </div>
+
+                         
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                 </div>
+                 <a href="#" class="ms-5 nav-link fw-bold text-dark">Voir tous les produits</a>
+              </section>
+       <section class="model">
+         <div class="" style="background-color: #F4E967;">
+        <div class="container d-block d-sm-block d-xxl-flex  p-5">
+          <div class="col-12  col-sm-12 col-xxl-6 mt-5 mb-4 p-3">
+            <img src="https://panafrica-store.com/cdn/shop/files/histoire-panafrica.jpg?v=1697185435&width=800" alt="" width="100%" class="">
+          </div>
+          <div class="col-12  ms-4 col-xxl-6 col-sm-12 mt-5 mb-4 p-3">
+            <h6 class="fw-bold mb-5">The origin of Panafrica</h6>
+            <h1 style="font-weight: 1000;" class="mb-5">THE STORY</h1>
+            <p class="col-11">PANAFRICA was founded in 2015 by Hugues and Vulfran, long-time friends and lovers of Africa.</p>
+            <p class="mb-5">Starting from nothing and with dreams in their heads, they take their backpack and travel through many African countries to build an ambitious, committed and.</p>
+         <a href="" class="nav-link p-3  bg-dark d-inline " style="color: #F4E967;">VIEW THE PROJECT</a>
+          </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/yRKM3gamj6M?playsinline=1autoplay=1controls=0mute=1loop=1playlist=yRKM3gamj6Menablejsapi=1rel=0modestbranding=1origin=https%3A%2F%2Fpanafrica-store.com" allow="autoplay; " allowfullscreen="allowfullscreen" id="widget2" data-gtm-yt-inspected-24="true" data-gtm-yt-inspected-29="true"  width="100%" height="1000" class=" " ></iframe>
+        <div class="mt-3 ">
+          <marquee behavior="" direction="" scrollamount="15" class="pb-3 fs-2" style="font-weight: 1000;  line-height: 60px;">CONSCIOUSLY MADE IN AFRICA &nbsp; &nbsp;&nbsp;&nbsp;CONSCIOUSLY MADE IN AFRICA  &nbsp; &nbsp;&nbsp;&nbsp; CONSCIOUSLY MADE IN AFRICA  &nbsp; &nbsp;&nbsp;&nbsp; CONSCIOUSLY MADE IN AFRICA &nbsp; &nbsp;&nbsp;&nbsp; CONSCIOUSLY MADE IN AFRICA &nbsp; &nbsp;&nbsp;&nbsp; CONSCIOUSLY MADE IN AFRICA  &nbsp; &nbsp;&nbsp;&nbsp; CONSCIOUSLY MADE IN AFRICA  &nbsp; &nbsp;&nbsp;&nbsp; </marquee>
+        </div>
+        </div>
+       </section>
+      <section class="THE PAN-AFRICAN mt-5">
+          <div class="container">
+            <p>Find us on the networks</p>
+            <h1 class="col-12 col-xxl-4 col-sm-12" style="font-weight: 1000;">THE PAN-AFRICAN ADVENTURE</h1>
+            <div class="d-flex justify-content-between">
+              <div class="col-2 d-flex ">
+              <img src="https://scontent-sin6-4.cdninstagram.com/v/t39.30808-6/442384579_18416003014066014_7203461444386171081_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=mleS5vzmJdoQ7kNvgFKIqBS&_nc_ht=scontent-sin6-4.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYD8y1nNjzuckUGjl4ugcdCYkHny8Do9WkCpo2BjAgHfyQ&oe=66558BE1" alt="" width="100%" height="100%" class="col-12 box">
+             <div class=" col-7">
+               
+           </div>
+            </div>
+              <div class="col-2">
+                <img src="https://scontent-sin6-2.cdninstagram.com/v/t39.30808-6/444153522_18417147571066014_4569818667223268243_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=6TbactWsNpwQ7kNvgF1SL50&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYD8vt7WLX5uvhL-kwUs_C-MuDcwTZWXHk7bZZWp_w3_lQ&oe=66556284" alt="" width="100%" height="100%" class="col-12 box">
+                </div>
+                <div class="col-2">
+                  <img src="https://scontent-sin6-4.cdninstagram.com/v/t39.30808-6/444149871_18417034537066014_5935722473623461400_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=18de74&_nc_ohc=auxQxjJVYZcQ7kNvgGaScwe&_nc_ht=scontent-sin6-4.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYAGgBteJysevUOTVehsTl8dc8MzqiZEy24o-T__CYYPhg&oe=66557273" alt="" width="100%" height="100%" class="col-12 ">
+                  </div>
+                  <div class="col-2">
+                    <img src="https://scontent-sin6-4.cdninstagram.com/v/t39.30808-6/442384579_18416003014066014_7203461444386171081_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=mleS5vzmJdoQ7kNvgFKIqBS&_nc_ht=scontent-sin6-4.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYD8y1nNjzuckUGjl4ugcdCYkHny8Do9WkCpo2BjAgHfyQ&oe=66558BE1" alt="" width="100%" height="100%" class="col-12 ">
+                    </div>
+                    <div class="col-2">
+                      <img src="https://scontent-sin6-1.cdninstagram.com/v/t39.30808-6/436340525_18416166151066014_6817145816775709928_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=uHfFFr_q4awQ7kNvgGOd_I7&_nc_ht=scontent-sin6-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYAMFDneGjQ-1-Xooj1coj1H5q_vTlhbKyYdTqxLDTg6vw&oe=66556FE2" alt="" width="100%" height="100%" class="col-12">
+                      </div>
+                    
+            </div>
+          </div>
+      </section>
+
+      <section class="swiper-name container mt-5 pt-5">
+        <div class="d-block d-sm-flex">
+       <div class="col-12 ms-5 ms-sm-0 col-xxl-2 col-sm-4">
+        <div class="col-7">
+          <div class="d-flex  justify-content-center" style="color: #FF5E4D;">
+          <h2 class="m-0" >4.7   </h2><p class="fs-4 mt-1 m-0">/ 5</p>
+          </div>
+          <ul class="list-unstyled d-flex justify-content-evenly ">
+            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+
+          </ul>
+          <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjc5IiBoZWlnaHQ9Ijk0IiB2aWV3Qm94PSIwIDAgMjc5IDk0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTE2LjI5OCAzMy45MjM1SDEyOS45MTlMMTMyLjkzMSA0Mi44ODVIMTM5Ljk0NkwxMjcuMTU5IDYuNTk5MTlIMTE5LjA3NUwxMDYuMjY1IDQyLjg4NUgxMTMuMzAzTDExNi4zMDEgMzMuOTIzNUgxMTYuMjk4Wk0xMjIuOTQ2IDE0LjA1MzFIMTIzLjIzOEwxMjguMTUgMjguNjYzOEgxMTguMDU4TDEyMi45NDYgMTQuMDUzMVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE1Mi44MDYgNDIuODg1TDE2Mi41IDE1LjY2MTVIMTU1LjcyOUwxNDkuNDY5IDM1Ljg5NjNIMTQ5LjE3N0wxNDIuODY5IDE1LjY2MTVIMTM2LjAyNUwxNDUuNjkzIDQyLjg4NUgxNTIuODA2WiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMTcxLjQ2MyAxNS42NjE1SDE2NS4wNTdWNDIuODg3OEgxNzEuNDYzVjE1LjY2MTVaIiBmaWxsPSIjMDMwMzBBIi8+CjxwYXRoIGQ9Ik0xNjguMjcxIDExLjgzNjVDMTY5LjI3OSAxMS44MzY1IDE3MC4xNDcgMTEuNDk0NiAxNzAuODc3IDEwLjgxMzdDMTcxLjYwNiAxMC4xMzI4IDE3MS45NzEgOS4zMDMzMiAxNzEuOTcxIDguMzI4MTVDMTcxLjk3MSA3LjM1Mjk5IDE3MS42MDYgNi41NTE1NiAxNzAuODc3IDUuODY3ODJDMTcwLjE0NyA1LjE4Njg4IDE2OS4yNzYgNC44NDUwMSAxNjguMjcxIDQuODQ1MDFDMTY3LjI2NiA0Ljg0NTAxIDE2Ni4zNzEgNS4xODY4OCAxNjUuNjQxIDUuODY3ODJDMTY0LjkxMSA2LjU0ODc1IDE2NC41NDYgNy4zNzgyMSAxNjQuNTQ2IDguMzUwNTdDMTY0LjU0NiA5LjMyMjk0IDE2NC45MTEgMTAuMTI3MiAxNjUuNjQxIDEwLjgxMDlDMTY2LjM3MSAxMS40OTE4IDE2Ny4yNSAxMS44MzM3IDE2OC4yNzEgMTEuODMzN1YxMS44MzY1WiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMTk2Ljc2NSAzOS4yNTg5QzE5Ny43NTYgMzcuOTQ0NyAxOTguMjUgMzYuNDM0MyAxOTguMjUgMzQuNzMwNUMxOTguMjUgMzIuNzk5OCAxOTcuNjE1IDMxLjIyNSAxOTYuMzQ5IDMwLjAwNkMxOTUuMDgzIDI4Ljc4NzEgMTkzLjE3NCAyNy45MTI4IDE5MC42MjUgMjcuMzc3NUwxODUuOTc0IDI2LjQwMjRDMTg0LjU5MyAyNi4wOTQxIDE4My42MDcgMjUuNjg1IDE4My4wMTUgMjUuMTcyMkMxODIuNDIzIDI0LjY2MjIgMTgyLjEyNSAyNC4wMDY1IDE4Mi4xMjUgMjMuMjEwN0MxODIuMTI1IDIyLjMwMjggMTgyLjU3NCAyMS41NTQ2IDE4My40NzggMjAuOTcxN0MxODQuMzc5IDIwLjM4NiAxODUuNDk3IDIwLjA5NDYgMTg2LjgyNyAyMC4wOTQ2QzE4OC4zMDQgMjAuMDk0NiAxODkuNDQ5IDIwLjQzOTMgMTkwLjI2IDIxLjEyODZDMTkxLjA3MiAyMS44MTggMTkxLjYgMjIuNjExIDE5MS44NDQgMjMuNTAyMUwxOTcuNjY2IDIyLjg5NEMxOTcuMjI4IDIwLjU4NzggMTk2LjA5NCAxOC43NDk2IDE5NC4yNjkgMTcuMzc5M0MxOTIuNDQyIDE2LjAwOSAxODkuOTI5IDE1LjMyMjUgMTg2LjczMiAxNS4zMjI1QzE4NC41NTYgMTUuMzIyNSAxODIuNjM5IDE1LjY2NDMgMTgwLjk4MyAxNi4zNDUzQzE3OS4zMjYgMTcuMDI2MiAxNzguMDM1IDE3Ljk4NDYgMTc3LjExMSAxOS4yMjAzQzE3Ni4xODUgMjAuNDUzMyAxNzUuNzI1IDIxLjkxNjEgMTc1LjcyNSAyMy42MDNDMTc1LjcyNSAyNS41ODQxIDE3Ni4zNTEgMjcuMjEyMiAxNzcuNiAyOC40ODcyQzE3OC44NDkgMjkuNzYyMiAxODAuNzgzIDMwLjY4NDIgMTgzLjM5NyAzMS4yNTAyTDE4OC4wNDggMzIuMjI1NEMxOTAuNDg1IDMyLjc3NzQgMTkxLjcwMSAzMy44MTcgMTkxLjcwMSAzNS4zNDE0QzE5MS43MDEgMzYuMjUyMSAxOTEuMjM3IDM3LjAxNzEgMTkwLjMxNCAzNy42NDJDMTg5LjM4NyAzOC4yNjY5IDE4OC4xNjEgMzguNTgwOCAxODYuNjM2IDM4LjU4MDhDMTg1LjExMiAzOC41ODA4IDE4My45NzggMzguMjY5NyAxODMuMDQzIDM3LjY0MkMxODIuMTA4IDM3LjAxNzEgMTgxLjUwNSAzNi4wOTUyIDE4MS4yMyAzNC44NzkxTDE3NC45NjkgMzUuNDY0N0MxNzUuMzc3IDM3Ljk2NDMgMTc2LjU4OSAzOS45MTc0IDE3OC42MSA0MS4zMjEzQzE4MC42MzIgNDIuNzI1MiAxODMuMzA3IDQzLjQyODYgMTg2LjYzNiA0My40Mjg2QzE4OC45MSA0My40Mjg2IDE5MC45MTcgNDMuMDY0MyAxOTIuNjYzIDQyLjMzMjlDMTk0LjQxIDQxLjYwMTUgMTk1Ljc3NyA0MC41Nzg3IDE5Ni43NjggMzkuMjY0NUwxOTYuNzY1IDM5LjI1ODlaIiBmaWxsPSIjMDMwMzBBIi8+CjxwYXRoIGQ9Ik0xMzIuNzM1IDUwLjYyMThMMTIzLjMxMSA3OS4xNjIzSDEyMi45MkwxMTMuNDk3IDUwLjYyMThIMTA2LjI2MkwxMTkuMDcyIDg2LjkwNDhIMTI3LjE1OUwxMzkuOTQ2IDUwLjYyMThIMTMyLjczNVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE0Ny42OTIgNTYuMjk2M0gxNTIuMzQzTDE1Ny4yNjEgNDkuMTExNUgxNTEuMDc3TDE0Ny42OTIgNTYuMjk2M1oiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE1OS4wNzggNjIuNjI2NUMxNTcuOTE2IDYxLjUwNTYgMTU2LjU4NSA2MC42NzkgMTU1LjA4MyA2MC4xNDM3QzE1My41ODEgNTkuNjA4NSAxNTEuOTk1IDU5LjMzOTUgMTUwLjMyMiA1OS4zMzk1QzE0Ny43MjIgNTkuMzM5NSAxNDUuNDY4IDU5LjkzMzYgMTQzLjU1MSA2MS4xMTYxQzE0MS42MzQgNjIuMzAxNCAxNDAuMTQ5IDYzLjk1NDcgMTM5LjA5MyA2Ni4wNzMyQzEzOC4wMzcgNjguMTkxNyAxMzcuNTEgNzAuNjU0OCAxMzcuNTEgNzMuNDY1NEMxMzcuNTEgNzYuMjc2IDEzOC4wNCA3OC43NzI4IDEzOS4xMDQgODAuODY4OUMxNDAuMTY4IDgyLjk2NDkgMTQxLjY5IDg0LjU4MTggMTQzLjY3MiA4NS43Mjc5QzE0NS42NTQgODYuODcxMiAxNDguMDA2IDg3LjQ0NTYgMTUwLjczNSA4Ny40NDU2QzE1Mi44NDYgODcuNDQ1NiAxNTQuNzE1IDg3LjEyNjIgMTU2LjM0OSA4Ni40ODQ1QzE1Ny45OCA4NS44NDI4IDE1OS4zMTkgODQuOTM0OSAxNjAuMzY2IDgzLjc1NzlDMTYxLjQxMyA4Mi41ODEgMTYyLjEzMiA4MS4yMDUxIDE2Mi41MjIgNzkuNjMwM0wxNTYuNTMyIDc4LjkyNDFDMTU2LjI0IDc5LjcwMzEgMTU1LjgyMSA4MC4zNTg5IDE1NS4yNzcgODAuODg1N0MxNTQuNzMyIDgxLjQxMjUgMTU0LjA4NCA4MS44MDc2IDE1My4zMjggODIuMDY1NEMxNTIuNTczIDgyLjMyNiAxNTEuNzQyIDgyLjQ1NDkgMTUwLjgzMyA4Mi40NTQ5QzE0OS40MzUgODIuNDU0OSAxNDguMjE0IDgyLjE0NjcgMTQ3LjE2NyA4MS41MzAyQzE0Ni4xMTkgODAuOTEzNyAxNDUuMzA4IDgwLjAxNyAxNDQuNzMgNzguODQwMUMxNDQuMjExIDc3Ljc4MDggMTQzLjkyNyA3Ni41MjU0IDE0My44NzcgNzUuMDc2N0gxNjIuODE0VjczLjA3ODdDMTYyLjgxNCA3MC42OTEyIDE2Mi40OCA2OC42MzQ0IDE2MS44MTUgNjYuOTA1NUMxNjEuMTQ5IDY1LjE3NjUgMTYwLjIzNCA2My43NTMgMTU5LjA3NSA2Mi42MzIxTDE1OS4wNzggNjIuNjI2NVpNMTQ2LjgzOCA2NS4zMDU0QzE0Ny44MTIgNjQuNjU1MyAxNDguOTg5IDY0LjMzMDIgMTUwLjM3IDY0LjMzMDJDMTUxLjc1MSA2NC4zMzAyIDE1Mi45MDIgNjQuNjU1MyAxNTMuODI4IDY1LjMwNTRDMTU0Ljc1NSA2NS45NTU1IDE1NS40NTEgNjYuODUyMiAxNTUuOTIyIDY3Ljk5NTVDMTU2LjI1OSA2OC44MTM4IDE1Ni40NzMgNjkuNzM1NyAxNTYuNTY4IDcwLjc1ODVIMTQzLjkwMkMxNDMuOTg2IDY5LjczNTcgMTQ0LjIyMiA2OC43ODg1IDE0NC42MiA2Ny45MjI3QzE0NS4xMjMgNjYuODI3IDE0NS44NjQgNjUuOTU1NSAxNDYuODM4IDY1LjMwNTRaIiBmaWxsPSIjMDMwMzBBIi8+CjxwYXRoIGQ9Ik0xNzkuNDk4IDU5LjMxNDNDMTc3Ljk0IDU5LjMxNDMgMTc2LjU1IDU5Ljc0MDIgMTc1LjMzMiA2MC41OTIxQzE3NC4xMTMgNjEuNDQ0IDE3My4yNjMgNjIuNjY1NyAxNzIuNzc0IDY0LjI1NzRIMTcyLjQ4MlY1OS42Nzg2SDE2Ni4yNzNWODYuOTA0OEgxNzIuNjc5VjcwLjkyOTRDMTcyLjY3OSA2OS43NjA5IDE3Mi45NDMgNjguNzM4MSAxNzMuNDcgNjcuODYxQzE3My45OTggNjYuOTgzOSAxNzQuNzI1IDY2LjI5NDYgMTc1LjY1MiA2NS43OTAyQzE3Ni41NzggNjUuMjg4NiAxNzcuNjM0IDY1LjAzNjQgMTc4LjgxOCA2NS4wMzY0QzE3OS4zNTQgNjUuMDM2NCAxNzkuOTEzIDY1LjA3IDE4MC41IDY1LjEzNDVDMTgxLjA4NCA2NS4xOTg5IDE4MS41MTMgNjUuMjgwMiAxODEuNzkxIDY1LjM3ODNWNTkuNDg1MkMxODEuNDk5IDU5LjQzNzYgMTgxLjEyOSA1OS4zOTU2IDE4MC42ODIgNTkuMzY0N0MxODAuMjM2IDU5LjMzMzkgMTc5Ljg0MyA1OS4zMTcxIDE3OS41IDU5LjMxNzFMMTc5LjQ5OCA1OS4zMTQzWiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMTg3LjQxNCA0OC44Njc3QzE4Ni4zOTIgNDguODY3NyAxODUuNTEzIDQ5LjIwOTUgMTg0Ljc4NCA0OS44OTA1QzE4NC4wNTQgNTAuNTcxNCAxODMuNjg5IDUxLjQwMDkgMTgzLjY4OSA1Mi4zNzMyQzE4My42ODkgNTMuMzQ1NiAxODQuMDU0IDU0LjE0OTggMTg0Ljc4NCA1NC44MzM2QzE4NS41MTMgNTUuNTE0NSAxODYuMzkyIDU1Ljg1NjQgMTg3LjQxNCA1NS44NTY0QzE4OC40MzYgNTUuODU2NCAxODkuMjg5IDU1LjUxNDUgMTkwLjAxOSA1NC44MzM2QzE5MC43NDkgNTQuMTUyNiAxOTEuMTE0IDUzLjMyMzIgMTkxLjExNCA1Mi4zNDhDMTkxLjExNCA1MS4zNzI4IDE5MC43NDkgNTAuNTcxNCAxOTAuMDE5IDQ5Ljg4NzdDMTg5LjI4OSA0OS4yMDY3IDE4OC40MTkgNDguODY0OSAxODcuNDE0IDQ4Ljg2NDlWNDguODY3N1oiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTE5MC42MDYgNTkuNjgxNEgxODQuMlY4Ni45MDc2SDE5MC42MDZWNTkuNjgxNFoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTIwNS42MDggNDguOTE1M0MyMDQuMDUgNDguOTE1MyAyMDIuNjI0IDQ5LjIxNTEgMjAxLjMzMiA0OS44MTc2QzIwMC4wNDEgNTAuNDE3MyAxOTkuMDEzIDUxLjMyOCAxOTguMjUgNTIuNTQ0MkMxOTcuNDg2IDUzLjc2MzEgMTk3LjEwNCA1NS4yODc1IDE5Ny4xMDQgNTcuMTIzVjU5LjY4MTRIMTkzLjExVjY0LjY0OTdIMTk3LjEwNFY4Ni45MDc2SDIwMy40ODVWNjQuNjQ5N0gyMDkuMTYyVjU5LjY4MTRIMjAzLjQ4NVY1Ny41ODUzQzIwMy40ODUgNTYuNTE0OSAyMDMuNzQxIDU1LjY4NTQgMjA0LjI1MiA1NS4xMDI2QzIwNC43NjMgNTQuNTE2OSAyMDUuNjEgNTQuMjI1NSAyMDYuNzk4IDU0LjIyNTVDMjA3LjMxNyA1NC4yMjU1IDIwNy43OCA1NC4yNzAzIDIwOC4xODcgNTQuMzZDMjA4LjU5NSA1NC40NDk3IDIwOC45MjYgNTQuNTQyMSAyMDkuMTg3IDU0LjY0MDJMMjEwLjUwMSA0OS42NzE5QzIxMC4wOTQgNDkuNTI2MiAyMDkuNDU2IDQ5LjM2MzcgMjA4LjU4OSA0OS4xODQzQzIwNy43MjEgNDkuMDA1IDIwNi43MjUgNDguOTE1MyAyMDUuNjA1IDQ4LjkxNTNIMjA1LjYwOFoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTIxOC43NiA1OS42ODE0SDIxMi4zNTNWODYuOTA3NkgyMTguNzZWNTkuNjgxNFoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTIxNS41NjggNDguODY3N0MyMTQuNTQ2IDQ4Ljg2NzcgMjEzLjY2NyA0OS4yMDk1IDIxMi45MzcgNDkuODkwNUMyMTIuMjA3IDUwLjU3MTQgMjExLjg0MyA1MS40MDA5IDIxMS44NDMgNTIuMzczMkMyMTEuODQzIDUzLjM0NTYgMjEyLjIwNyA1NC4xNDk4IDIxMi45MzcgNTQuODMzNkMyMTMuNjY3IDU1LjUxNDUgMjE0LjU0NiA1NS44NTY0IDIxNS41NjggNTUuODU2NEMyMTYuNTkgNTUuODU2NCAyMTcuNDQzIDU1LjUxNDUgMjE4LjE3MyA1NC44MzM2QzIxOC45MDMgNTQuMTUyNiAyMTkuMjY4IDUzLjMyMzIgMjE5LjI2OCA1Mi4zNDhDMjE5LjI2OCA1MS4zNzI4IDIxOC45MDMgNTAuNTcxNCAyMTguMTczIDQ5Ljg4NzdDMjE3LjQ0MyA0OS4yMDY3IDIxNi41NzMgNDguODY0OSAyMTUuNTY4IDQ4Ljg2NDlWNDguODY3N1oiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTI0Mi4wNjUgNDkuMTExNUgyMzUuODgxTDIzMi40OTUgNTYuMjk2M0gyMzcuMTQ3TDI0Mi4wNjUgNDkuMTExNVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTI0My44ODEgNjIuNjI2NUMyNDIuNzE5IDYxLjUwNTYgMjQxLjM4OSA2MC42NzkgMjM5Ljg4NyA2MC4xNDM3QzIzOC4zODUgNTkuNjA4NSAyMzYuNzk5IDU5LjMzOTUgMjM1LjEyNiA1OS4zMzk1QzIzMi41MjYgNTkuMzM5NSAyMzAuMjY5IDU5LjkzMzYgMjI4LjM1NSA2MS4xMTYxQzIyNi40MzcgNjIuMzAxNCAyMjQuOTUyIDYzLjk1NDcgMjIzLjg5NyA2Ni4wNzMyQzIyMi44NDEgNjguMTkxNyAyMjIuMzEzIDcwLjY1NDggMjIyLjMxMyA3My40NjU0QzIyMi4zMTMgNzYuMjc2IDIyMi44NDQgNzguNzcyOCAyMjMuOTA4IDgwLjg2ODlDMjI0Ljk3MiA4Mi45NjQ5IDIyNi40OTMgODQuNTgxOCAyMjguNDc1IDg1LjcyNzlDMjMwLjQ1NyA4Ni44NzEyIDIzMi44MSA4Ny40NDU2IDIzNS41MzggODcuNDQ1NkMyMzcuNjQ5IDg3LjQ0NTYgMjM5LjUxOSA4Ny4xMjYyIDI0MS4xNTMgODYuNDg0NUMyNDIuNzg0IDg1Ljg0MjggMjQ0LjEyMyA4NC45MzQ5IDI0NS4xNyA4My43NTc5QzI0Ni4yMTcgODIuNTgxIDI0Ni45MzYgODEuMjA1MSAyNDcuMzI2IDc5LjYzMDNMMjQxLjMzNSA3OC45MjQxQzI0MS4wNDMgNzkuNzAzMSAyNDAuNjI1IDgwLjM1ODkgMjQwLjA4IDgwLjg4NTdDMjM5LjUzNiA4MS40MTI1IDIzOC44ODcgODEuODA3NiAyMzguMTMyIDgyLjA2NTRDMjM3LjM3NyA4Mi4zMjYgMjM2LjU0NiA4Mi40NTQ5IDIzNS42MzcgODIuNDU0OUMyMzQuMjM5IDgyLjQ1NDkgMjMzLjAxNyA4Mi4xNDY3IDIzMS45NyA4MS41MzAyQzIzMC45MjMgODAuOTEzNyAyMzAuMTEyIDgwLjAxNyAyMjkuNTM0IDc4Ljg0MDFDMjI5LjAxNCA3Ny43ODA4IDIyOC43MzEgNzYuNTI1NCAyMjguNjggNzUuMDc2N0gyNDcuNjE4VjczLjA3ODdDMjQ3LjYxOCA3MC42OTEyIDI0Ny4yODQgNjguNjM0NCAyNDYuNjE5IDY2LjkwNTVDMjQ1Ljk1MyA2NS4xNzY1IDI0NS4wMzggNjMuNzUzIDI0My44NzkgNjIuNjMyMUwyNDMuODgxIDYyLjYyNjVaTTIzMS42NDIgNjUuMzA1NEMyMzIuNjE2IDY0LjY1NTMgMjMzLjc5MiA2NC4zMzAyIDIzNS4xNzMgNjQuMzMwMkMyMzYuNTU1IDY0LjMzMDIgMjM3LjcwNiA2NC42NTUzIDIzOC42MzIgNjUuMzA1NEMyMzkuNTU4IDY1Ljk1NTUgMjQwLjI1NSA2Ni44NTIyIDI0MC43MjYgNjcuOTk1NUMyNDEuMDYzIDY4LjgxMzggMjQxLjI3NiA2OS43MzU3IDI0MS4zNzIgNzAuNzU4NUgyMjguNzA2QzIyOC43OSA2OS43MzU3IDIyOS4wMjYgNjguNzg4NSAyMjkuNDI0IDY3LjkyMjdDMjI5LjkyNyA2Ni44MjcgMjMwLjY2OCA2NS45NTU1IDIzMS42MzkgNjUuMzA1NEgyMzEuNjQyWiIgZmlsbD0iIzAzMDMwQSIvPgo8cGF0aCBkPSJNMjcxLjI0NCA3NC4wMjMxQzI2OS45NzggNzIuODA0MSAyNjguMDY5IDcxLjkyOTggMjY1LjUyIDcxLjM5NDZMMjYwLjg2OCA3MC40MTk0QzI1OS40ODcgNzAuMTExMiAyNTguNTAyIDY5LjcwMjEgMjU3LjkwOSA2OS4xODkzQzI1Ny4zMTcgNjguNjc5MyAyNTcuMDE5IDY4LjAyMzUgMjU3LjAxOSA2Ny4yMjc3QzI1Ny4wMTkgNjYuMzE5OCAyNTcuNDY5IDY1LjU3MTYgMjU4LjM3MiA2NC45ODg4QzI1OS4yNzQgNjQuNDAzMSAyNjAuMzkxIDY0LjExMTcgMjYxLjcyMSA2NC4xMTE3QzI2My4xOTggNjQuMTExNyAyNjQuMzQzIDY0LjQ1NjMgMjY1LjE1NSA2NS4xNDU3QzI2NS45NjYgNjUuODM1IDI2Ni40OTQgNjYuNjI4IDI2Ni43MzggNjcuNTE5MUwyNzIuNTYgNjYuOTExMUMyNzIuMTIyIDY0LjYwNDkgMjcwLjk4OCA2Mi43NjY2IDI2OS4xNjMgNjEuMzk2M0MyNjcuMzM2IDYwLjAyMzIgMjY0LjgyMyA1OS4zMzk1IDI2MS42MjYgNTkuMzM5NUMyNTkuNDUgNTkuMzM5NSAyNTcuNTMzIDU5LjY4MTQgMjU1Ljg3NyA2MC4zNjIzQzI1NC4yMjEgNjEuMDQzMyAyNTIuOTI5IDYyLjAwMTYgMjUyLjAwNiA2My4yMzc0QzI1MS4wNzkgNjQuNDcwMyAyNTAuNjE5IDY1LjkzMzEgMjUwLjYxOSA2Ny42MkMyNTAuNjE5IDY5LjYwMTIgMjUxLjI0NSA3MS4yMjkzIDI1Mi40OTQgNzIuNTA0M0MyNTMuNzQzIDczLjc3OTMgMjU1LjY3OCA3NC43MDEyIDI1OC4yOTEgNzUuMjY3M0wyNjIuOTQzIDc2LjI0MjRDMjY1LjM3OSA3Ni43OTQ0IDI2Ni41OTUgNzcuODM0MSAyNjYuNTk1IDc5LjM1ODVDMjY2LjU5NSA4MC4yNjkyIDI2Ni4xMzIgODEuMDM0MiAyNjUuMjA4IDgxLjY1OTFDMjY0LjI4MiA4Mi4yODQgMjYzLjA1OCA4Mi41OTc4IDI2MS41MzEgODIuNTk3OEMyNjAuMDAzIDgyLjU5NzggMjU4Ljg3MiA4Mi4yODY4IDI1Ny45MzcgODEuNjU5MUMyNTcuMDAzIDgxLjAzNDIgMjU2LjM5OSA4MC4xMTIzIDI1Ni4xMjQgNzguODk2MUwyNDkuODY0IDc5LjQ4MThDMjUwLjI3MSA4MS45ODEzIDI1MS40ODMgODMuOTM0NSAyNTMuNTA1IDg1LjMzODRDMjU1LjUyNiA4Ni43NDIzIDI1OC4yMDEgODcuNDQ1NiAyNjEuNTMxIDg3LjQ0NTZDMjYzLjgwNCA4Ny40NDU2IDI2NS44MTIgODcuMDgxMyAyNjcuNTU4IDg2LjM1QzI2OS4zMDQgODUuNjE4NiAyNzAuNjcxIDg0LjU5NTggMjcxLjY2MiA4My4yODE2QzI3Mi42NTMgODEuOTY3MyAyNzMuMTQ3IDgwLjQ1NjkgMjczLjE0NyA3OC43NTMyQzI3My4xNDcgNzYuODE5NyAyNzIuNTEyIDc1LjI0NzYgMjcxLjI0NiA3NC4wMjg3TDI3MS4yNDQgNzQuMDIzMVoiIGZpbGw9IiMwMzAzMEEiLz4KPHBhdGggZD0iTTI1LjE5MjEgMTcuOTgxOEMxMy44NzkgMTcuOTgxOCA0LjcwNzczIDI3LjEzNjYgNC43MDc3MyAzOC40Mjk0SDM5LjAyMDZMNDUuNjc2NSAxNy45ODE4SDI1LjE5MjFaIiBmaWxsPSIjMDA3M0ZGIi8+CjxwYXRoIGQ9Ik02Ny41NDIxIDE4Ljk4MjFDNjQuMDQ3MSA4LjI0MTI5IDUyLjQ4OTcgMi4zNjUwNiA0MS43Mjk2IDUuODUzODFMNTIuMzMyNSAzOC40Mjk1SDczLjg3MjRMNjcuNTQyMSAxOC45ODIxWiIgZmlsbD0iIzAwNzNGRiIvPgo8cGF0aCBkPSJNNzkuNjc1IDU5LjQ5NjRDODguODI2NiA1Mi44NTggOTAuODU2MiA0MC4wNzE1IDg0LjIwNTkgMzAuOTMzNUw1Ni40NDUxIDUxLjA2NzRMNjMuMTAxMSA3MS41MTUxTDc5LjY3MjIgNTkuNDk2NEg3OS42NzVaIiBmaWxsPSIjMDA3M0ZGIi8+CjxwYXRoIGQ9Ik00NC44MjMxIDgzLjUzMzhDNTMuOTc0NyA5MC4xNzIyIDY2Ljc4NjkgODguMTQ2MiA3My40MzczIDc5LjAxMUw0NS42NzY1IDU4Ljg3NzJMMjguMjUyIDcxLjUxNTFMNDQuODIzMSA4My41MzM4WiIgZmlsbD0iIzAwNzNGRiIvPgo8cGF0aCBkPSJNMTEuMTUzMSA1Ny44NzY4QzcuNjU4MTMgNjguNjE3NiAxMy41NDQ5IDgwLjE1NDMgMjQuMzA1IDgzLjY0M0wzNC45MDggNTEuMDY3NEwxNy40ODM1IDM4LjQyOTVMMTEuMTUzMSA1Ny44NzY4WiIgZmlsbD0iIzAwNzNGRiIvPgo8L3N2Zz4K" alt="" width="100%" class="col-8 d-block m-auto">
+          <p class="m-0 mt-2 text-center">Based on 215  </p> <p class="d-block text-center m-0"> reviews</p>
+           <span class="text-center d-block"><a href="https://www.avis-verifies.com/avis-clients/panafrica-store.com" class="text-dark"> certificate of trust </a></span>
+        </div>
+        </div>
+        <div class="slider-2 col-10 col-sm-8 col-xxl-10">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active ">
+                <div class="d-flex">
+                <div class="col-12 col-xxl-4 col-sm-12 p-2">
+              <div class="card p-3">
+                <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                </ul>
+                <span>Excellent transaction 👍</span>
+                <p class="mt-5 " >Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+              </div>
+              </div>
+              <div class="col-4 d-sm-none d-xxl-block d-none  p-2">
+                <div class="card p-3">
+                  <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                    <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                    <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                    <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                    <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                    <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                  </ul>
+                  <span>I like it, it's great.</span>
+                  <p class="mt-5 ">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                </div>
+                </div>
+                 <div class="col-4 d-xxl-block  d-none d-sm-none p-2">
+              <div class="card p-3">
+                <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                  <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                </ul>
+                <span>Perfect</span>
+                <p class="mt-5">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+              </div>
+              </div>
+              </div>
+            </div>
+              <div class="carousel-item">
+               <div class="d-flex">
+                <div class="col-12 col-xxl-4 col-sm-12 p-2">
+                  <div class="card  p-3">
+                    <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                      <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                      <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                      <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                      <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                      <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                    <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                    </ul>
+                    <span>Thanks very much</span>
+                    <p class="mt-5">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                  </div>
+                  </div>
+                  <div class="col-4 d-sm-none d-none d-xxl-block  p-2">
+                    <div class=" card p-3">
+                      <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                      <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                      </ul>
+                      <span>Quick delivery. Perfect size. Good foot hold</span>
+                      <p class="mt-5 mt-xxl-4">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                    </div>
+                    </div>
+                    <div class="col-4 d-none d-sm-none d-xxl-block p-2">
+                      <div class="card p-3">
+                        <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                        </ul>
+                        <span>Very good quality, and fast order processing.</span>
+                        <p class="mt-4">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                      </div>
+                      </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex">
+                  <div class="col-12 col-sm-12 col-xxl-4 p-2">
+                    <div class=" card p-3">
+                      <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                      <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                      </ul>
+                      <span>This is my second pair of Panafrica! I adore!</span>
+                      <p class="mt-5 mt-xxl-4">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                    </div>
+                    </div>
+                    <div class="col-4 d-none d-sm-none d-xxl-block p-2">
+                      <div class="card p-3">
+                        <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                        <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                        </ul>
+                        <span>Fast delivery!</span>
+                        <p class="mt-5 ">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                      </div>
+                      </div>
+                      <div class="col-4 d-none d-sm-none d-xxl-block p-2">
+                        <div class="card p-3">
+                          <ul class="list-unstyled d-flex justify-content-evenly col-7">
+                            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                            <li><a href="" class="nav-link fs-5" style="background-color: #FF5E4D; color: white; padding: 2px 5px;"><i class="bi bi-star-fill"></i></a></li>
+                          <li><a href="" class="fs-3 nav-link p-0" style="color: #FF5E4D;" > 5/5</a></li>
+                          </ul>
+                          <span>Well detailed, beautiful videos and photos</span>
+                          <p class="mt-5 mt-xxl-4">Opinion of   <b>05/06/2024</b>  , following an experience of  <b>04/28/2024</b> by  <b>Florian J</b></p>
+                        </div>
+                        </div>
+
+                </div>
+              </div>
+           
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden ">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
+          </div>
+        </div>
+       
+      </section>
+      <section id="NEWSLETTER ">
+        <div class="col-12 container d-block d-sm-block d-xxl-flex mt-sm-5 ">
+            <div class="col-12 col-sm-12 col-xxl-6 mt-5">
+                <img src="https://panafrica-store.com/cdn/shop/files/APA9809-scaled-1-1152x768_1.webp?v=1695141730&width=832" alt="" width="100%" height="100%" class="col-12">
+            </div>
+            <div class="col-12 col-sm-12 col-xxl-6 mt-5 p-5" style="background-color: #F4E967;">
+            <h1 style="font-size: 48px; font-weight: 900; " class="mb-4 d-none d-sm-block">NEWSLETTER</h1>
+            <p class="fw-bold ">Inscrivez-vous à la newsletter Panafrica et bénéficiez de -10% sur votre premier achat !</p>    
+            <p class="col-11">Vous accèderez à des offres exclusives et les dernières actualités de Panafrica.</p>
+         <div class="d-block d-sm-flex justify-content-evenly">
+            <div class="d-flex col-8">
+            <input type="email" class="form-control " placeholder="Email" style="background-color: #F4E967;  height: 60px; border: 3px solid black;">
+       </div>
+       <div class=" mt-5 mt-sm-0">
+           <a href="" class="nav-link fw-bolder bg-dark " style="color: #F4E967; padding: 18px 40px;">Rejoindre</a>
+           </div>
+    </div>
+        </div>
+        </div>
+       </section>
+
+       <section style="background-color: #F4E967;" >
+       
+        <div class="container d-block d-sm-flex p-5 justify-content-center mt-5"  >
+            <div class="col-12 col-sm-5 col-xxl-2">
+           <ul class="list-unstyled  ">
+            <li><a href="" class="nav-link text-dark fw-bold">NOUS (RE)JOINDRE</a></li>
+            <li><a href="" class="nav-link text-dark fw-bold">Où nous trouver ?</a></li>
+            <li><a href="" class="nav-link text-dark fw-bold">Devenir Revendeur</a></li>
+            <li><a href="" class="nav-link text-dark fw-bold">Collab x Panafrica</a></li>
+            <li><a href="" class="nav-link text-dark fw-bold">E-Carte Cadeau</a></li>
+            <li><a href="" class="nav-link text-dark fw-bold">Contact</a></li>
+           </ul>
+        </div>
+             <div class="col-12 col-sm-5 col-xxl-2">
+                <ul class="list-unstyled  ">
+                    <li><a href="" class="nav-link text-dark fw-bold">INFOS PRATIQUES</a></li>
+                    <li><a href="" class="nav-link text-dark fw-bold">Livraison</a></li>
+                    <li><a href="" class="nav-link text-dark fw-bold">Echanges & Retours</a></li>
+                    <li><a href="" class="nav-link text-dark fw-bold">CGV</a></li>
+                    <li><a href="" class="nav-link text-dark fw-bold">Mentions Légales</a></li>
+                    <li><a href="" class="nav-link text-dark fw-bold">Demander/Suivre un retour</a></li>
+                   </ul>
+             </div>
+        </div>
+        <div class="pb-5 text-center">
+        <p class=" d-inline ">Copyright © Panafrica, 2024.</p>
+        <i class="bi bi-facebook ms-4 fs-2"></i>
+        <i class="bi bi-instagram ms-3 fs-2"></i>
+        <i class="bi bi-pinterest ms-3 fs-2"></i>
+        </div>
+       </section>
+      
+        </body>
+</html>

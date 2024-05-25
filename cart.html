@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="cart.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <section class="carousel slide " id="carousel1" data-bs-ride="carousel" style="background-color:#F4E967;">
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <p class=" text-center mt-2 fw-bold">Payez en 3x sans frais</p>
+      </div>
+      <div class="carousel-item text-center">
+        <p class="mt-2 fw-bold">Payez en 3x sans frais</p>
+      </div>
+      <div class="carousel-item text-center">
+        <p class="mt-2 fw-bold">Livraison offerte dès 100€</p>
+      </div>
+      <div class="carousel-item text-center">
+        <p class="mt-2 fw-bold">Payez en 3x sans frais</p>
+      </div>
+      <button class="carousel-control-prev  " style="width: 50px;" type="button" data-bs-target="#carousel1"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+        <span class="visually-hidden ">Previous</span>
+      </button>
+      <button class="carousel-control-next " style="width: 50px;" type="button" data-bs-target="#carousel1"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon  " aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section>
+    <div class="img">
+      <div class="navbar navbar-expand-xl">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
+            aria-controls="offcanvasTop">
+            <span class="navbar-toggler-icon"><i class="bi bi-list  fs-1"></i></span>
+          </button>
+          <div class="d-sm-block d-none  d-xl-none"><i class="bi bi-search  fs-5 ms-sm-2"></i></div>
+          <a class="navbar-brand m-sm-auto" href="#">
+            <img src="https://panafrica-store.com/cdn/shop/files/logo-panafrica-noir.png?v=1695206134&width=245" alt=""
+              width="100%" class="col-xl-9 col-sm-7  m-sm-auto d-sm-flex ">
+          </a>
+          <div class="d-xl-none d-none d-sm-block">
+            <i class="bi bi-heartbreak fs-3  pe-3"></i>
+            <a href="add.html"  style="text-decoration: none;"><i class="bi bi-bag-dash fs-3 text-dark "></i></a>
+          </div>
+
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <div class="col-12 d-flex justify-content-evenly ps-5">
+              <ul class="nav text-center ps-5 mt-2 ps-lg-0">
+                <li class="nav-item "><a href="" class="nav-link text-dark  fw-bold">COLLABS</a></li>
+                <li class="nav-item"><a href="shoes.html" class="nav-link text-dark fw-bold">BASKETS</a></li>
+                <li class="nav-item"><a href="" class="nav-link  text-dark fw-bold">LOOKBOOK</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-dark fw-bold">MANIFESTE</a></li>
+                <li class="nav-item"><a href="" class="nav-link text-dark fw-bold">OUTLET</a></li>
+              </ul>
+              <ul class="nav">
+                <li class="nav-item "><a href="" class="nav-link text-dark fw-bold"><i
+                      class="bi bi-search fs-4"></i></a></li>
+                <li class="nav-item"><a href="" class="nav-link text-dark fw-bold"><i
+                      class="bi bi-geo-alt fs-4"></i></a></li>
+                <li class="nav-item"><a href="" class="nav-link text-dark fw-bold"><i class="bi bi-heart fs-4"></i></a>
+                </li>
+                <li class="nav-item "><a href="formpg2.html" class="nav-link text-dark fw-bold"><i
+                      class="bi bi-person fs-4"></i></a></li>
+                <li class="nav-item "><a href="" class="nav-link text-dark  fw-bold " aria-controls="offcanvasRight" style=" font-weight: 1000;" data-bs-target="#offcanvasRight" data-bs-toggle="offcanvas"><i class="bi bi-bag fs-4"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-top h-50" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel " style="text-transform: uppercase; font-weight: 1000; ">navigation </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="col-12 d-flex container justify-content-between ps-5">
+              <ul class=" list-unstyled   mt-2 ps-lg-0" >
+                  <li class="nav-item "><a href="" class="nav-link  text-dark fw-bold">COLLABS</a></li>
+                  <li class="nav-item"><a href="shoes.html" class="nav-link  text-dark fw-bold">BASKETS</a></li>
+                  <li class="nav-item"><a href="" class="nav-link text-dark  fw-bold">LOOKBOOK</a></li>
+                  <li class="nav-item"><a href="" class="nav-link text-dark  fw-bold">MANIFESTE</a></li>
+                  <li class="nav-item"><a href="" class="nav-link text-dark  fw-bold">OUTLET</a></li>
+              </ul>
+              <ul class="list-unstyled ">
+                  <li class="nav-item "><a href="" class="nav-link  fw-bold"><i class="bi bi-search text-dark fs-4"></i></a></li>
+                  <li class="nav-item"><a href="" class="nav-link  fw-bold"><i class="bi bi-geo-alt text-dark fs-4"></i></a></li>
+                  <li class="nav-item"><a href="" class="nav-link  fw-bold"><i class="bi bi-heart text-dark  fs-4"></i></a></li>
+                  <li class="nav-item "><a href="form.html" class="nav-link  fw-bold"><i class="bi bi-person text-dark fs-4"></i></a></li>
+                  <li class="nav-item"><a href="add.html" target="_blank" class="nav-link  fw-bold" ><i class="bi bi-bag text-dark fs-4"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="url-shoes mt-5">
+        <div class="container" style="position: relative;">
+          <div class="d-block d-sm-block d-xl-flex">
+            <div class="col-12 col-sm-12 col-xl-6 d-flex">
+              <div class="flex-column col-2">
+                <img src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_01.jpg?v=1711384788&width=800"
+                  alt="" class="d-block col-9 mb-3" width="100%">
+                <img src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_03.jpg?v=1711384791&width=800"
+                  alt=" " class="d-block col-9 mb-3" width="100%">
+                <img src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_02.jpg?v=1711384791&width=800"
+                  alt="" class="d-block col-9 mb-3" width="100%">
+                <img src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_04.jpg?v=1711384789&width=800"
+                  alt=" " class="d-block col-9 mb-3" width="100%">
+
+              </div>
+              <div class="col-10">
+                <div id="carouselExampleControls" class="carousel slide col-12 " data-bs-ride="carousel">
+                  <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                      <img
+                        src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_01.jpg?v=1711384788&width=800"
+                        width="100%" class="d-block col-12" alt="..." id="image">
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_03.jpg?v=1711384791&width=800"
+                        width="100%" class="d-block col-12" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_02.jpg?v=1711384791&width=800"
+                        width="100%" class="d-block col-12" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="https://panafrica-store.com/cdn/shop/files/SAH-402SAHARA-PERLE_04.jpg?v=1711384789&width=800"
+                        alt="" width="100%" class="d-block col-12">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-xl-6 mt-sm-5 mt-5 mt-sm-0 ms-4 ms-sm-0 ms-xl-5 ms-md-4 ms-lg-5">
+              <img src="image/s.png" alt="" class="col-5 col-md-4 col-sm-5">
+              <h1 id="price" style="font-weight: 1000; text-transform: uppercase;"></h1>
+              <h5 id="title" class="mt-3"></h5>
+              <h6 class="fw-bold mt-4">Choisissez votre taille &nbsp;&nbsp;&nbsp; <u> Guide des tailles</u></h6>
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active  fw-bold text-dark" id="pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                    aria-selected="true">36</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">37</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">38</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size39" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">39</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size40" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">40</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size41" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">41</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size42" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">42</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size43" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">43</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size44" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">44</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size45" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">45</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size46" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">46</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link text-dark fw-bold" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-size47" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">47</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <i class="bi bi-exclamation-octagon-fill " style="color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp; <h6
+                    class="d-inline" style="color: red;">Plus que 3 produits en stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><i
+                    class="bi bi-exclamation-octagon-fill " style="color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp; <h6
+                    class="d-inline" style="color: red;">Plus que 3 produits en stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-exclamation-octagon-fill " style="color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp; <h6
+                    class="d-inline" style="color: red;">Plus que 3 produits en stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size39" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-exclamation-octagon-fill " style="color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp; <h6
+                    class="d-inline" style="color: red;">Plus que 3 produits en stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size40" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-check-circle-fill" style="color: #96C683;"></i>&nbsp;&nbsp;&nbsp;<h6 class="d-inline"
+                    style="color: #96C683;">En stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size41" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-check-circle-fill" style="color: #96C683;"></i>&nbsp;&nbsp;&nbsp;<h6 class="d-inline"
+                    style="color: #96C683;">En stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size42" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-check-circle-fill" style="color: #96C683;"></i>&nbsp;&nbsp;&nbsp;<h6 class="d-inline"
+                    style="color: #96C683;">En stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size43" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-check-circle-fill" style="color: #96C683;"></i>&nbsp;&nbsp;&nbsp;<h6 class="d-inline"
+                    style="color: #96C683;">En stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size44" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-check-circle-fill" style="color: #96C683;"></i>&nbsp;&nbsp;&nbsp;<h6 class="d-inline"
+                    style="color: #96C683;">En stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size45" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-exclamation-octagon-fill " style="color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp; <h6
+                    class="d-inline" style="color: red;">Plus que 3 produits en stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size46" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-check-circle-fill" style="color: #96C683;"></i>&nbsp;&nbsp;&nbsp;<h6 class="d-inline"
+                    style="color: #96C683;">En stock</h6>
+                </div>
+                <div class="tab-pane fade" id="pills-size47" role="tabpanel" aria-labelledby="pills-contact-tab"><i
+                    class="bi bi-exclamation-octagon-fill " style="color: red;"></i>&nbsp;&nbsp;&nbsp;&nbsp; <h6
+                    class="d-inline" style="color: red;">Plus que 3 produits en stock</h6>
+                </div>
+              </div>
+              <div class="cart-btns col-11 mt-3">
+                <a href="" class="nav-link text-center pt-3 pb-3 d-block"
+                  style="background-color: black; color: white; font-weight: 1000;">Buy in 1-click &nbsp; <i
+                    class="bi bi-stars fs-5"></i></a>
+                <a class="cartbtn text-center pt-3 pb-3 d-block mt-2 " id="AddTocart"  aria-controls="offcanvasRight" style=" font-weight: 1000;" data-bs-target="#offcanvasRight" data-bs-toggle="offcanvas" >Add to
+                  Cart</a>
+                  
+                 <section>
+               
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width: 40%;">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel" style="font-weight: 1000;">Add to Cart</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h6>Frais de livraison offerts !</h6>
+    <hr style="opacity: 100%; background-color: #F4E967; height: 5px; ">
+    <div id="hiibrome">
+    </div>
+    
+     <div class="fixed-bottom position-absolute pb-5  pt-4 border-top bg-white col-12 ms-auto">
+      <div class="d-flex justify-content-between">
+        <h3 style="font-weight: 1000; " class="ms-5">T0TAL</h3>
+        <h3 style="font-weight: 1000; " class="me-5">11500€</h3>
+      </div>
+      <p class="ms-5 mt-2">Taxes included. Shipping costs calculated at checkout.</p>
+      <div class="d-flex mt-2 justify-content-evenly">
+        <a href="" class=" nav-link fs-6 text-center fw-bold col-5 " style=" background-color: yellow; color: black;">TO Order</a>
+        <a href="" class="nav-link fs-6 text-center fw-bold col-5" style="background-color: black; color: rgb(255, 255, 255);">Buy in 1-click &nbsp; <i
+          class="bi bi-stars fs-5"></i></a>
+      </div>
+      <div class="textme text-center mt-3">
+        <div class="col-1 d-inline">
+          <img src="image/alma.png" alt="" width="100%" class="col-2">
+        </div>
+
+        <h6 class="fw-bold d-inline"> Payment in 3x without fees</h6>
+      </div> 
+     
+     </div>
+  </div>
+</div>
+                 </section>
+              </div>
+              <div class="textme text-center mt-3">
+                <div class="col-1 d-inline">
+                  <img src="image/alma.png" alt="" width="100%" class="col-2">
+                </div>
+
+                <h6 class="fw-bold d-inline"> Payment in 3x without fees</h6>
+              </div>
+              <div class=" mt-4">
+                <ul>
+                  <li>
+                    <h6>Commandez maintenant pour être livrés mercredi 22 mai.</h6>
+                  </li>
+                  <li>
+                    <h6>Livraison & retour offerts en france dès 100€ (hors promotions)</h6>
+                  </li>
+                </ul>
+              </div>
+              <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" style="font-weight: 1000;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                      aria-controls="flush-collapseOne">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">PANAFRICA vous présente Sahara, la nouvelle basket lifestyle conçue pour
+                      les amoureux des grands espaces. Avec sa tige ultra légère, sa semelle souple, ses lignes
+                      organiques et ses couleurs douces, elle s'affirme comme un classique indémodable du vestiaire
+                      contemporain. Osez l'aventure avec Sahara-Perle !</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" style="font-weight: 1000;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                      aria-controls="flush-collapseTwo">
+                      Composition
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fabrication artisanale dans l'atelier familial d'Hicham et de son père à
+                      Casablanca au Maroc.
+                      <ul>
+                        <li>Tige : tissus wax 100% coton made in CIV ou Ghana, cuir suede et cuir nubuck</li>
+                        <li>Doublure : polyester recyclé</li>
+                        <li>Semelle : gomme</li>
+                        <li>Semelle intérieure : amovible</li>
+                        <li>Lacets : 100% coton</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" style="font-weight: 1000;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                      aria-controls="flush-collapseThree">
+                      Conseils tailles
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Modèle unisexe. Choisissez votre pointure habituelle. Si vous êtes entre
+                      2 pointures, nous vous recommandons de choisir la pointure supérieure</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingfive">
+                    <button class="accordion-button collapsed" style="font-weight: 1000;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false"
+                      aria-controls="flush-collapseThree">
+                      Entretien
+                    </button>
+                  </h2>
+                  <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p>Les tissus imprimés que nous utilisons sont tissus premium. Les procédés d'impression utilisés
+                        et le 100% coton garantissent une parfaite fixation des couleurs, évitant toute déteinte et
+                        permettant un entretien facile de vos paires. </p>
+                      <p>Nous vous conseillons d’<strong>imperméabiliser</strong> vos paires avec un spray adapté
+                        <strong>avant la première utilisation </strong>et de répéter l'opération régulièrement. </p>
+                      <p><strong>Le passage en machine à laver est déconseillé. </strong></p>
+                      <p><strong>Entretien des différents matériaux : </strong></p>
+                      <ul>
+                        <li>Toile (wax, batik, coton imprimé et uni, PET) : frottez à l'aide d'un chiffon humide et de
+                          savon de Marseille.</li>
+                        <li>Cuir suède : dépoussiérez avec un brosse crêpe. Vaporisez un raviveur de couleur pour
+                          redonner de l'éclat, puis brossez à nouveau. </li>
+                        <li>Cuir pleine fleur (cuir lisse) : hydratez avec un spray ou une crème adaptée et cirez
+                          régulièrement.</li>
+                        <li>Semelle : nettoyez la semelle avec du savon de Marseille et de l’eau chaude avec une pincée
+                          de bicarbonate de soude.</li>
+                        <li>Lacets : retirez les lacets de la paire et passez les en machine. </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingfour">
+                    <button class="accordion-button collapsed " style="font-weight: 1000;" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false"
+                      aria-controls="flush-collapseThree">
+                      Livraison
+                    </button>
+                  </h2>
+                  <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <h6 class="fw-bold">France</h6>
+                      <ul>
+                        <li>Point relais - 3 à 7 jours ouvrés - 4€ (Offert dès 100€ d'achat)</li>
+                        <li>Domicile express - 24h (commandes avant 12h du lundi au jeudi inclus) - 12 €</li>
+                        <li>Domicile (DROM) - 6 à 18 jours ouvrés - 20 €</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="OPTIMISTE ET ENGAGÉ mt-5" style="background-color: #F4E967;">
+        <div class="container ">
+          <div class="d-block d-sm-block d-xl-flex">
+            <div class="col-12 mt-5 col-xl-6 col-sm-12 mb-5 pt-5 pb-5">
+              <img
+                src="https://panafrica-store.com/cdn/shop/files/photo-optimiste-et-engage-2.jpg?v=1702378202&width=800"
+                alt="" class="col-11" width="100%">
+            </div>
+            <div class="col-12 col-xl-6 mt-xl-5 col-sm-12 mt-sm-0 pt-sm-0 mt-5 mb-5 pt-5 pb-5">
+              <h1 class="" style="font-weight: 1000;">OPTIMISTIC AND</h1>
+              <h1 class="mb-5" style="font-weight: 1000;"> COMMITTED</h1>
+              <h6 class="mb-4">PANAFRICA is an optimistic and engaged fashion brand inspired by Africa and produced on
+                the African continent.</h6>
+              <h6 class="mb-4">PANAFRICA is a state of mind. Our ambition: to produce differently, with respect
+                for those who give life to our collections and concerned about the social,
+                economic and environmental impact of our actions.</h6>
+              <h6>
+                To find out more about our actions, go to our Project page.</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="FAQ mt-5 pt-5 ">
+        <div class="container " style="background-color: #EAECEB;">
+          <div class="d-block p-sm-5 d-sm-block d-xl-flex">
+            <div class="col-12 col-sm-12 col-xl-5 mt-5 ms-2 pt-5 ms-sm-0 pt-sm-0">
+              <img
+                src="https://panafrica-store.com/cdn/shop/files/photo-FAQ-page-site_7c8f1d90-c3b0-4ca4-844f-f58ed8dc04c8.jpg?v=1702374509&width=1200" alt="" class="col-11 " width="100%">
+            </div>
+            <div class="col-12 col-sm-12  col-xl-6 mt-4">
+              <h1 style="font-weight: 1000;">FAQ</h1>
+              <div class="accordion" id="accordionExample" style="margin-top: 25%;">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" style="font-weight: 1000; background-color: #EAECEB;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What does the name of each model refer to?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" style="background-color: #EAECEB;" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      The idea of ​​our collections is to take you on a journey with us to the African continent. This is why we wanted to give each of the models the name of an African city, region, park, mountain. Did you know, for example, that Arusha was a city in northern Tanzania?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed mt-3" style="font-weight: 1000; background-color: #EAECEB;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Will my pair be identical to the photo?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" style="background-color: #EAECEB;" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      You will not necessarily have the same wax inserts between the pair you see in the photo and the one you will receive... and that's all that makes the charm of a pair of PANAFRICA sneakers. But we guarantee the symmetry of the wax prints between your right foot and your left foot. We give Hicham cutting instructions to guarantee homogeneity of the prints but the richness of the wax means that you may end up with little touches of color more or less. We like to say that every Panafrica sneaker is unique!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button  collapsed mt-3" style="font-weight: 1000; background-color: #EAECEB;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Is wax a durable fabric?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" style="background-color: #EAECEB;" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Of course ! We make sure to choose the best quality wax from our partners in Ivory Coast and Ghana. The wax fabric used is 100% cotton and the wax printing process gives it water resistance. You can wear your sneakers at all times with complete peace of mind, without worrying that the fabric will bleed. Follow our care tips carefully to extend the life of your sneakers.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item" >
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed mt-3" style="font-weight: 1000; background-color: #EAECEB;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+                      Where are PANAFRICA sneakers made?
+                    </button>
+                  </h2>
+                  <div id="collapsefour" style="background-color: #EAECEB;" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<section class="slider mt-5 pt-5 ms-sm-0 ps-sm-0  ms-5 ps-4">
+  <h1 style="font-weight: 1000;" class="ms-4"> YOU WILL SURELY LIKE</h1>
+  <div id="slider-slidme" class="slider-slide d-flex mt-5 " >
+    
+</div>
+</section>
+<section id="NEWSLETTER ">
+  <div class="col-12 container d-block d-xl-flex d-sm-block mt-5">
+    <div class="col-12 col-sm-12 col-xl-6 mt-5">
+      <img
+        src="https://panafrica-store.com/cdn/shop/files/APA9809-scaled-1-1152x768_1.webp?v=1695141730&width=832"
+        alt="" width="100%" height="100%" class="col-12">
+    </div>
+    <div class="col-12 col-xl-6 col-sm-12 mt-5 p-5" style="background-color: #F4E967;">
+      <h1 style="font-size: 48px; font-weight: 900; " class="mb-4 d-none d-sm-block">NEWSLETTER</h1>
+      <p class="fw-bold ">Inscrivez-vous à la newsletter Panafrica et bénéficiez de -10% sur votre premier achat !
+      </p>
+      <p class="col-11">Vous accèderez à des offres exclusives et les dernières actualités de Panafrica.</p>
+      <div class="d-block d-sm-flex justify-content-evenly">
+        <div class="d-flex col-8">
+          <input type="email" class="form-control " placeholder="Email"
+            style="background-color: #F4E967;  height: 60px; border: 3px solid black;">
+        </div>
+        <div class="mt-5 mt-sm-0">
+          <a href="" class="nav-link fw-bolder bg-dark " style="color: #F4E967; padding: 18px 40px;">Rejoindre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background-color: #F4E967;">
+
+  <div class="container d-block d-sm-flex p-5 justify-content-center mt-5">
+    <div class="col-12 col-xl-2 col-sm-5">
+      <ul class="list-unstyled  ">
+        <li><a href="" class="nav-link text-dark fw-bold">NOUS (RE)JOINDRE</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Où nous trouver ?</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Devenir Revendeur</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Collab x Panafrica</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">E-Carte Cadeau</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Contact</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-xl-3 col-sm-5">
+      <ul class="list-unstyled  ">
+        <li><a href="" class="nav-link text-dark fw-bold">INFOS PRATIQUES</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Livraison</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Echanges & Retours</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">CGV</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Mentions Légales</a></li>
+        <li><a href="" class="nav-link text-dark fw-bold">Demander/Suivre un retour</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="pb-5 text-center col-9 m-auto col-sm-12">
+    <p class=" d-inline ">Copyright © Panafrica, 2024.</p>
+    <i class="bi bi-facebook ms-4 fs-2"></i>
+    <i class="bi bi-instagram ms-3 fs-2"></i>
+    <i class="bi bi-pinterest ms-3 fs-2"></i>
+  </div>
+</section>
+
+
+      <script>
+
+
+   const parma = new URLSearchParams(window.location.search)
+        window.addEventListener("load", () =>{
+          document.getElementById("image").src=parma.get("image")
+          document.getElementById("price").innerText=parma.get("price")
+          document.getElementById("title").innerText=parma.get("title")
+        })
+
+        AddTocart.addEventListener("click",()=>{
+          let carddata={
+            title:parma.get("title"),
+            price:parma.get("price"),
+            image:parma.get("image"),
+          }
+         fetch("https://js-json-js.onrender.com/card",{
+          method:"POST",
+          headers:{
+           "Content-type":"application/json"
+        },
+          body:JSON.stringify(carddata)
+         }).then((res)=>res.json())
+         .then((data)=>alert("your shoes add....."))
+         .catch((err)=>console.log(err))
+        })
+
+         
+        let catdata
+function Fetchdata(){
+    const store=fetch("https://js-json-js.onrender.com/card")
+    .then((res)=>res.json()) 
+    .then((data)=>{cardList(data)
+      catdata=data
+    })
+    .catch((err)=>console.log(err))
+}
+Fetchdata()
+function cardList(data){
+    const store=data.map((el)=>singlecard(el.image,el.price,el.title,el.id))
+    document.getElementById("hiibrome").innerHTML=store.join("")
+}
+function singlecard(image,title,price,id){
+    let card=`
+    
+    <div class="d-flex mb-5">
+    <div class="d-flex col-10">
+    <div class="col-3">  <img src="${image}" alt=""  width="100%"></div>
+    <div class=" d-flex">
+     <div class="">
+      <h6 style="font-weight: 1000;" class="ms-3 text-dark">${title}</h6>
+      <p class="ms-3 text-dark mb-2">${price}</hp>
+      <p class="ms-3 text-dark mb-2">36</hp>
+        <li class="ms-3 text-dark">Delivery from: Thursday May 23.</li>
+      </div>
+      </div>
+    </div> 
+    <div class="mt-5">
+      <input type="number" class=" text-center col-5 mb-2 " placeholder="1">
+      <a href="#" class="card-delete nav-link text-dark fw-bold" data-id=${id}>Delete</a>
+    </div>
+     </div>
+           
+     `
+    return card;
+}
+document.addEventListener("click",(e)=>{
+
+if(e.target.classList.contains("card-delete"))
+ {
+   delteproduct(e.target.dataset.id)
+ }
+})
+function delteproduct(id){
+fetch(`https://js-json-js.onrender.com/card/${id}`,{
+method:'DELETE'
+})
+.then((res)=>res.json())
+.then((data)=>{
+ alert("delete...")
+ console.log(data);
+})
+.catch((err)=>console.log(err))
+}
+
+      </script>
+      <script>
+         let productData
+function Fetchdata(){
+    const store=fetch("https://js-json-js.onrender.com/cart")
+    .then((res)=>res.json()) 
+    .then((data)=>{cardlist(data)
+        productData=data
+    })
+    .catch((err)=>console.log(err))
+}
+
+Fetchdata()
+function cardlist(data){
+    const store=data.map((el)=>singLecard(el.images,el.prices,el.titles,el.id))
+    document.getElementById("slider-slidme").innerHTML=store.join("")
+}
+function singLecard(images,titles,prices,id){
+    let card=`
+    <a style=" text-decoration: none;" href="cart.html?title=${encodeURIComponent(titles)}&image=${encodeURIComponent(images)}&price=${encodeURIComponent(prices)}&id=${id}"
+    <div class=" marl col-12 col-md-4 col-xl-3 col-sm-12"  id="${id}">  
+           <div class="products-images-main "  >
+            <img src=${images[0]} alt=""  width="100%" class="col-12" >
+            <div class="products-images col-12 ms-3" >
+            <img src="${images[1]}"  width="100%" alt="" class="col-12">
+            </div>
+            </div>
+            <div class="col-12">
+           <div class="pt-4 pb-3  ms-xxl-3 ms-2 mb-5 ms-md-2 col-11" style="background-color: #EAECEB;" >
+           <h6 class="text-center text-dark" style="font-weight: 900; text-transform: uppercase;">${prices}</h6>
+            <h6 class="text-center fw-bold text-dark" >${titles}€</h6>
+          </div>
+            </div>
+           </div>
+           </a>
+     `
+    return card;
+}
+
+      </script>
+</body>
+
+</html>

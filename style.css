@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.img 
+{
+  background: radial-gradient(circle, rgba(0,0,0,0.28904061624649857) 100%, rgba(148,187,233,1) 100%),url(https://panafrica-store.com/cdn/shop/files/Header_site_internet_AKANDA-FEUILLES.jpg?v=1712846548&width=2000);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+.slid-me{
+  transform: rotate(-0.25turn); 
+  height: 60px; 
+  position: absolute;
+   margin-top: 120px; 
+   font-weight: 1000;
+   opacity: 50%;
+}
+.shoes:hover
+{
+  transform:scale(1.1);
+  transition: 1s;
+}
+.shoes-2
+{
+  background-color: #E7EAE9;
+}
+.shoes3
+{
+  background-color:#EAECEB;
+}
+
+.shoes-2 .img-1 {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/BI-401BINI-FLEURS_01.jpg?v=1709225336&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-1:hover 
+{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/BI-401BINI-FLEURS_03.jpg?v=1709225454&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.shoes-3x{
+  display: none;
+}
+.shoes-2:hover .shoes-3x 
+{
+  display: block;
+}
+.shoes-2:hover .shoes3{
+  display: none;
+
+}
+.img-2{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/SAH-403SAHARA-BEIGE_01.jpg?v=1711384707&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-2:hover {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/SAH-403SAHARA-BEIGE_03.jpg?v=1711384710&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-3{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/AK-402AKANDA-VAGUES_01.jpg?v=1711445967&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-3:hover {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/AK-402AKANDA-VAGUES_04.jpg?v=1711445970&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-4{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/ATL-403ATLAS-HIRONDELLE_01.jpg?v=1709301551&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center;
+}
+.img-4:hover {
+  background-image: url('https://panafrica-store.com/cdn/shop/files/ATL-403ATLAS-HIRONDELLE_03.jpg?v=1709301551&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-1x{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/RUN-401ARUSHA-GRENADINE_01.jpg?v=1709223905&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-1x:hover{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/RUN-401ARUSHA-GRENADINE_03.jpg?v=1709300274&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-2x{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/A-405DODOMA_01.jpg?v=1709289788&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+.img-2x:hover 
+{
+  background-image: url('https://panafrica-store.com/cdn/shop/files/A-405DODOMA_03.jpg?v=1709289790&width=1800');
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 345px;
+      transition: 1s;
+    background-position: center; 
+}
+
+@media (min-width: 576px) {
+  .img-2{
+    width: 230px;
+    height: 260px;
+  }
+  .img-2:hover{
+    width: 230px;
+    height: 260px;
+  }
+  .img-3{
+    width: 230px;
+    height: 260px;
+  }
+  .img-3:hover{
+    width: 230px;
+    height: 260px;
+  }
+  .img-1x{
+    width: 230px;
+    height: 260px; 
+  }
+  .img-1x:hover{
+    width: 230px;
+    height: 260px;
+  }
+  .img-2x
+  {
+    width: 230px;
+    height: 260px;
+  }
+  .img-2x:hover{
+    width: 230px;
+    height: 260px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-2{
+    width: 280px;
+    height: 300px;
+
+  }
+ 
+  .img-2:hover{
+    width: 280px;
+    height: 300px;
+  }
+  .img-3{
+    width: 280px;
+    height: 300px;
+  }
+  .img-3:hover{
+    width: 280px;
+    height: 300px;
+  }
+  .img-1x{
+    width: 280px;
+    height: 300px;
+  }
+  .img-1x:hover{
+    width: 280px;
+    height: 300px;
+  }
+  .img-2x
+  {
+    width: 280px;
+    height: 300px;
+  }
+  .img-2x:hover{
+    width: 280px;
+    height: 300px;
+  }
+}
+
+@media (min-width:992px){
+  .shoes-2 .img-1{
+    width: 280px;
+    height: 300px;
+
+  }
+   .shoes3{
+    width: 280px;
+   }
+  
+}
+@media (min-width:1200px){
+  .img-4{
+    width: 280px;
+    height: 300px;
+
+  }
+  .img-4x{
+    width: 280px;
+    height: 300px; 
+  }
+}
+@media (min-width:1400px){
+  
+.img-4:hover {
+  width: 280px;
+    height: 300px; 
+}
+}
